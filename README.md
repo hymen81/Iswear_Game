@@ -4,4 +4,3 @@
 - 開發環頸:cocos2dx
 - 運行平台:windows/Android/iOS
 
-開發狀態
