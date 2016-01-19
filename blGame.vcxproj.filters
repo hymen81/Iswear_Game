@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StartMenu">
+      <UniqueIdentifier>{6ab5c0f6-ee34-427b-8b83-86ba5849204f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage">
+      <UniqueIdentifier>{856cbc8d-b813-41d4-a86a-5d8915926b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage\Stage1">
+      <UniqueIdentifier>{98d60e22-32a2-4020-9dab-cf1c5adfd0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Effect">
+      <UniqueIdentifier>{f1bf7ab8-9dca-42d6-971d-3154cc91822c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectFactory">
+      <UniqueIdentifier>{f042ddc8-1926-4670-97c9-73eb252f052f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e7c673c5-54ed-44b1-8c68-841a32fa6217}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenuScene.cpp">
+      <Filter>src\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectItems.cpp">
+      <Filter>src\StartMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>src\Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLayer.cpp" />
+    <ClCompile Include="BulletLayer.cpp" />
+    <ClCompile Include="EffectSprite\Effect.cpp">
+      <Filter>src\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSprite\EffectSprite.cpp">
+      <Filter>src\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSprite\LightEffect.cpp">
+      <Filter>src\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MyShake.cpp" />
+    <ClCompile Include="LoadingScene.cpp" />
+    <ClCompile Include="ObjectFactory\Factory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory\WarriorFactory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory\EnemyFactory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory\UIFactory.cpp">
+      <Filter>ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Door.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Input.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MainFly.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Skull.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SkullWeapon.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Warrior.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Weapon.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenuScene.h">
+      <Filter>src\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectItems.h">
+      <Filter>src\StartMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>src\Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLayer.h" />
+    <ClInclude Include="SystemConfig.h" />
+    <ClInclude Include="BulletLayer.h" />
+    <ClInclude Include="MyHelper.h" />
+    <ClInclude Include="EffectSprite\Effect.h">
+      <Filter>src\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSprite\EffectSprite.h">
+      <Filter>src\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSprite\LightEffect.h">
+      <Filter>src\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MyShake.h" />
+    <ClInclude Include="LoadingScene.h" />
+    <ClInclude Include="ObjectFactory\FactoryInterface.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\Factory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\WarriorFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\EnemyFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory\UIFactory.h">
+      <Filter>ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Door.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Input.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MainFly.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Skull.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SkullWeapon.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Warrior.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Weapon.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
