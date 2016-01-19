@@ -5,7 +5,7 @@
 
 ## 開發工具
 - 開發語言:C++
-- 開發環頸:cocos2dx
+- 開發環境:cocos2dx
 - 運行平台:windows/Android/iOS
 
 ## 目前進度
